@@ -1,0 +1,38 @@
+{
+ "lr": 0.3,
+ "rounds": 85,
+ "r_cal_used": 150,
+ "conv": {
+  "k=max target": {
+   "ok": true,
+   "plateau": 20,
+   "rise": 0.0007749597231547778,
+   "why": "ok"
+  },
+  "macro": {
+   "ok": true,
+   "plateau": 20,
+   "rise": 0.008119927039222041,
+   "why": "ok"
+  },
+  "k=1 target": {
+   "ok": true,
+   "plateau": 85,
+   "rise": 0.0002672208680046806,
+   "why": "ok",
+   "above_line": true
+  }
+ },
+ "fedavg_k1_learned": true,
+ "ref_recall": {
+  "Normal": 0.9983333349227905,
+  "DoS": 0.9983999729156494,
+  "DDoS": 0.9994000196456909,
+  "Portscan": 0.9279999732971191,
+  "Brute Force": 0.9891774654388428,
+  "Botnet": 0.9659091234207153,
+  "Web Attack": 0.8709677457809448
+ },
+ "dp_clip": 5.0,
+ "dp_lr": 0.5
+}

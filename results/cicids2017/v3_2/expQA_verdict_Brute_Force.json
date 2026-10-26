@@ -1,0 +1,11 @@
+{
+ "multiclass_any": [
+  "MISSED",
+  0.08
+ ],
+ "binary": [
+  "MIXED",
+  0.36
+ ],
+ "n_tax_cells": 25
+}

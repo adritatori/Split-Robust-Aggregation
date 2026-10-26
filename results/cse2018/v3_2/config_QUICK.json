@@ -1,0 +1,178 @@
+{
+ "DATASET": "CSE-CIC-IDS2018",
+ "VERSION": "v3",
+ "MODE": "QUICK",
+ "RUN_EXP_A": true,
+ "RUN_EXP_QA": true,
+ "RUN_EXP_D": true,
+ "RUN_EXP_B": true,
+ "RUN_EXP_C": true,
+ "FORCE_PAST_PREFLIGHT": false,
+ "ONLY_SELF_TEST": false,
+ "TIME_BUDGET_H": 11.0,
+ "ATTEMPTED_POLICY": "drop",
+ "DROP_PORTS": true,
+ "MAX_MISSING_FRAC": 0.5,
+ "NORMAL_SAMPLE_RATE": 0.035,
+ "TRAIN_CAP": {
+  "Normal": 1000000,
+  "_default": 300000
+ },
+ "INTERNAL_PREFIX": "172.31.",
+ "N_CLIENTS": 20,
+ "F_HAT": 2,
+ "M_TARGET": 500,
+ "N_BG": 3000,
+ "BG_TEMPER": 0.5,
+ "RARE_SHARE": 0.01,
+ "MIN_TEST": 100,
+ "LOCAL_STEPS": 10,
+ "BATCH": 128,
+ "SERVER_LR": 1.0,
+ "EVAL_EVERY": 5,
+ "LEARNABLE_FRAC": 0.8,
+ "DP_DELTA": 1e-05,
+ "R_CAL_LIST": [
+  150,
+  300
+ ],
+ "PLATEAU_FRAC_MAX": 0.7,
+ "RISE_TOL": 0.03,
+ "LR_GRID": [
+  0.05,
+  0.1,
+  0.3
+ ],
+ "DP_LR_GRID": [
+  0.05,
+  0.2,
+  0.5
+ ],
+ "DP_CLIP_GRID": [
+  0.1,
+  1.0,
+  5.0
+ ],
+ "FPR_MAX": 0.05,
+ "DEAD_RECALL": 0.05,
+ "REF_MIN": 0.5,
+ "QA_MAJORITY": 0.75,
+ "LONG_MULT": 3,
+ "DELAY_GAIN": 0.2,
+ "N_TARGETS": 1,
+ "K_GRID": [
+  1,
+  2,
+  3,
+  5,
+  8,
+  12,
+  16
+ ],
+ "F_GRID": [
+  0,
+  1,
+  2,
+  4
+ ],
+ "SEEDS": [
+  0,
+  1,
+  2
+ ],
+ "EPS_GRID": [
+  1.0,
+  3.0,
+  10.0,
+  Infinity,
+  -1.0
+ ],
+ "K_GRID_DP": [
+  1,
+  3,
+  8,
+  16
+ ],
+ "AGGS_DP": [
+  "fedavg",
+  "cwmed",
+  "trmean"
+ ],
+ "SEEDS_DP": [
+  0,
+  1,
+  2
+ ],
+ "B_TARGETS": "all",
+ "K_GRID_QA": [
+  1,
+  2,
+  3,
+  5,
+  8,
+  16
+ ],
+ "SEEDS_QA": [
+  0,
+  1,
+  2
+ ],
+ "SEEDS_D": [
+  0,
+  1,
+  2
+ ],
+ "AGGS": [
+  "fedavg",
+  "cwmed",
+  "trmean",
+  "mkrum",
+  "geomed",
+  "bucket_cwmed"
+ ],
+ "CLASSES": [],
+ "T0": 1790244710.8149555,
+ "STOPPED": {
+  "flag": false
+ },
+ "HAVE_OPACUS": true,
+ "TAG": "cse2018",
+ "OUT_BASENAME": "witness_v3_cse2018",
+ "OUT_DIR": "/kaggle/working/witness_v3_cse2018",
+ "FIG_DIR": "/kaggle/working/witness_v3_cse2018/figures",
+ "CIC_CLASSES": [
+  "Normal",
+  "DoS",
+  "DDoS",
+  "Portscan",
+  "Brute Force",
+  "Botnet",
+  "Web Attack"
+ ],
+ "AGG_FN": {
+  "fedavg": "<function agg_fedavg at 0x79cb9e9344a0>",
+  "cwmed": "<function agg_cwmed at 0x79cb9e934540>",
+  "trmean": "<function agg_trmean at 0x79cb9e9345e0>",
+  "mkrum": "<function agg_mkrum at 0x79cb9e934680>",
+  "geomed": "<function agg_geomed at 0x79cb9e9347c0>",
+  "bucket_cwmed": "<function agg_bucket_cwmed at 0x79cb9e934720>"
+ },
+ "ALL_AGGS": [
+  "fedavg",
+  "cwmed",
+  "trmean",
+  "mkrum",
+  "geomed",
+  "bucket_cwmed"
+ ],
+ "KEY_COLS": [
+  "target",
+  "k",
+  "f",
+  "agg",
+  "eps",
+  "seed",
+  "binary",
+  "rmult"
+ ]
+}

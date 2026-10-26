@@ -1,0 +1,73 @@
+dataset,target,eps_w,f,rule,n_seeds,reference_recall,measured_kstar,interval_low,interval_high,pred_expected,pred_binomial,expected_within1,expected_within2,expected_below_interval,expected_above_interval,binomial_within1,binomial_below_interval,binomial_above_interval,measured_between_predictions
+CICIDS2017,Botnet,1.0,0,cwmed,3,0.9402,8,7,8.0,6,8,True,True,True,False,True,False,False,True
+CICIDS2017,Botnet,1.0,0,trmean,3,0.9402,6,5,6.0,6,8,True,True,False,False,False,False,True,True
+CICIDS2017,Botnet,1.0,0,mkrum,3,0.9402,6,5,6.0,6,8,True,True,False,False,False,False,True,True
+CICIDS2017,Botnet,1.0,2,cwmed,3,0.9402,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CICIDS2017,Botnet,1.0,2,trmean,3,0.9402,6,5,6.0,7,9,True,True,False,True,False,False,True,False
+CICIDS2017,Botnet,1.0,2,mkrum,3,0.9402,6,5,6.0,7,9,True,True,False,True,False,False,True,False
+CICIDS2017,Botnet,1.0,4,cwmed,3,0.9402,8,7,8.0,9,11,True,True,False,True,False,False,True,False
+CICIDS2017,Botnet,1.0,4,trmean,3,0.9402,8,7,8.0,9,11,True,True,False,True,False,False,True,False
+CICIDS2017,Botnet,1.0,4,mkrum,3,0.9402,8,7,8.0,9,11,True,True,False,True,False,False,True,False
+CICIDS2017,Botnet,3.0,0,cwmed,3,0.9402,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CICIDS2017,Botnet,3.0,0,trmean,3,0.9402,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CICIDS2017,Botnet,3.0,0,mkrum,3,0.9402,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CICIDS2017,Botnet,3.0,2,cwmed,3,0.9402,3,3,3.0,3,5,True,True,False,False,False,False,True,True
+CICIDS2017,Botnet,3.0,2,trmean,3,0.9402,3,3,3.0,3,5,True,True,False,False,False,False,True,True
+CICIDS2017,Botnet,3.0,2,mkrum,3,0.9402,3,3,3.0,3,5,True,True,False,False,False,False,True,True
+CICIDS2017,Botnet,3.0,4,cwmed,3,0.9402,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CICIDS2017,Botnet,3.0,4,trmean,3,0.9402,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CICIDS2017,Botnet,3.0,4,mkrum,3,0.9402,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CICIDS2017,Portscan,1.0,0,cwmed,3,0.9087,8,7,8.0,6,8,True,True,True,False,True,False,False,True
+CICIDS2017,Portscan,1.0,0,trmean,3,0.9087,6,5,6.0,6,8,True,True,False,False,False,False,True,True
+CICIDS2017,Portscan,1.0,0,mkrum,3,0.9087,6,5,6.0,6,8,True,True,False,False,False,False,True,True
+CICIDS2017,Portscan,1.0,2,cwmed,3,0.9087,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CICIDS2017,Portscan,1.0,2,trmean,3,0.9087,6,5,6.0,7,9,True,True,False,True,False,False,True,False
+CICIDS2017,Portscan,1.0,2,mkrum,3,0.9087,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CICIDS2017,Portscan,1.0,4,cwmed,3,0.9087,8,7,8.0,9,11,True,True,False,True,False,False,True,False
+CICIDS2017,Portscan,1.0,4,trmean,3,0.9087,8,7,8.0,9,11,True,True,False,True,False,False,True,False
+CICIDS2017,Portscan,1.0,4,mkrum,3,0.9087,never,9,inf,9,11,True,True,False,False,True,False,False,True
+CICIDS2017,Portscan,3.0,0,cwmed,3,0.9087,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CICIDS2017,Portscan,3.0,0,trmean,3,0.9087,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CICIDS2017,Portscan,3.0,0,mkrum,3,0.9087,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CICIDS2017,Portscan,3.0,2,cwmed,3,0.9087,3,3,3.0,3,5,True,True,False,False,False,False,True,True
+CICIDS2017,Portscan,3.0,2,trmean,3,0.9087,3,3,3.0,3,5,True,True,False,False,False,False,True,True
+CICIDS2017,Portscan,3.0,2,mkrum,3,0.9087,3,3,3.0,3,5,True,True,False,False,False,False,True,True
+CICIDS2017,Portscan,3.0,4,cwmed,3,0.9087,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CICIDS2017,Portscan,3.0,4,trmean,3,0.9087,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CICIDS2017,Portscan,3.0,4,mkrum,3,0.9087,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,1.0,0,cwmed,3,0.9951,8,7,8.0,6,8,True,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,1.0,0,trmean,3,0.9951,6,5,6.0,6,8,True,True,False,False,False,False,True,True
+CSE-CIC-IDS2018,Botnet,1.0,0,mkrum,3,0.9951,8,7,8.0,6,8,True,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,1.0,2,cwmed,3,0.9951,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CSE-CIC-IDS2018,Botnet,1.0,2,trmean,3,0.9951,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CSE-CIC-IDS2018,Botnet,1.0,2,mkrum,3,0.9951,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CSE-CIC-IDS2018,Botnet,1.0,4,cwmed,3,0.9951,never,9,inf,9,11,True,True,False,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,1.0,4,trmean,3,0.9951,8,7,8.0,9,11,True,True,False,True,False,False,True,False
+CSE-CIC-IDS2018,Botnet,1.0,4,mkrum,3,0.9951,8,7,8.0,9,11,True,True,False,True,False,False,True,False
+CSE-CIC-IDS2018,Botnet,3.0,0,cwmed,3,0.9951,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,3.0,0,trmean,3,0.9951,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,3.0,0,mkrum,3,0.9951,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,3.0,2,cwmed,3,0.9951,4,4,4.0,3,5,True,True,True,False,True,False,True,True
+CSE-CIC-IDS2018,Botnet,3.0,2,trmean,3,0.9951,4,4,4.0,3,5,True,True,True,False,True,False,True,True
+CSE-CIC-IDS2018,Botnet,3.0,2,mkrum,3,0.9951,4,4,4.0,3,5,True,True,True,False,True,False,True,True
+CSE-CIC-IDS2018,Botnet,3.0,4,cwmed,3,0.9951,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,3.0,4,trmean,3,0.9951,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CSE-CIC-IDS2018,Botnet,3.0,4,mkrum,3,0.9951,6,5,6.0,5,6,True,True,False,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,1.0,0,cwmed,3,1.0,8,7,8.0,6,8,True,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,1.0,0,trmean,3,1.0,8,7,8.0,6,8,True,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,1.0,0,mkrum,3,1.0,8,7,8.0,6,8,True,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,1.0,2,cwmed,3,1.0,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CSE-CIC-IDS2018,Brute Force,1.0,2,trmean,3,1.0,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CSE-CIC-IDS2018,Brute Force,1.0,2,mkrum,3,1.0,8,7,8.0,7,9,True,True,False,False,True,False,True,True
+CSE-CIC-IDS2018,Brute Force,1.0,4,cwmed,3,1.0,never,9,inf,9,11,True,True,False,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,1.0,4,trmean,3,1.0,never,9,inf,9,11,True,True,False,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,1.0,4,mkrum,3,1.0,never,9,inf,9,11,True,True,False,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,3.0,0,cwmed,3,1.0,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,3.0,0,trmean,3,1.0,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,3.0,0,mkrum,3,1.0,3,3,3.0,1,3,False,True,True,False,True,False,False,True
+CSE-CIC-IDS2018,Brute Force,3.0,2,cwmed,3,1.0,4,4,4.0,3,5,True,True,True,False,True,False,True,True
+CSE-CIC-IDS2018,Brute Force,3.0,2,trmean,3,1.0,4,4,4.0,3,5,True,True,True,False,True,False,True,True
+CSE-CIC-IDS2018,Brute Force,3.0,2,mkrum,3,1.0,4,4,4.0,3,5,True,True,True,False,True,False,True,True
+CSE-CIC-IDS2018,Brute Force,3.0,4,cwmed,3,1.0,8,7,8.0,5,6,False,True,True,False,True,True,False,False
+CSE-CIC-IDS2018,Brute Force,3.0,4,trmean,3,1.0,8,7,8.0,5,6,False,True,True,False,True,True,False,False
+CSE-CIC-IDS2018,Brute Force,3.0,4,mkrum,3,1.0,8,7,8.0,5,6,False,True,True,False,True,True,False,False

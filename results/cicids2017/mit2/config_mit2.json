@@ -1,0 +1,532 @@
+{
+ "DATASET": "CICIDS2017",
+ "VERSION": "mit2",
+ "DATA_VERSION": "v3",
+ "SCRIPT_VERSION": "mit-2.0",
+ "MODE": "FULL",
+ "RUN_EXP_A": false,
+ "RUN_EXP_QA": false,
+ "RUN_EXP_D": false,
+ "RUN_EXP_K0": false,
+ "RUN_EXP_B": false,
+ "RUN_EXP_C": false,
+ "FORCE_PAST_PREFLIGHT": false,
+ "ONLY_SELF_TEST": false,
+ "TIME_BUDGET_H": 11.0,
+ "ATTEMPTED_POLICY": "drop",
+ "DROP_PORTS": true,
+ "MAX_MISSING_FRAC": 0.5,
+ "N_CLIENTS": 20,
+ "F_HAT": 2,
+ "M_TARGET": 500,
+ "N_BG": 3000,
+ "BG_TEMPER": 0.5,
+ "RARE_SHARE": 0.01,
+ "MIN_TEST": 100,
+ "LOCAL_STEPS": 10,
+ "BATCH": 128,
+ "SERVER_LR": 1.0,
+ "EVAL_EVERY": 5,
+ "LEARNABLE_FRAC": 0.8,
+ "DP_DELTA": 1e-05,
+ "R_CAL_LIST": [
+  150,
+  300
+ ],
+ "PLATEAU_FRAC_MAX": 0.7,
+ "RISE_TOL": 0.03,
+ "LR_GRID": [
+  0.05,
+  0.1,
+  0.3
+ ],
+ "DP_LR_GRID": [
+  0.05,
+  0.2,
+  0.5
+ ],
+ "DP_CLIP_GRID": [
+  0.1,
+  1.0,
+  5.0
+ ],
+ "FPR_MAX": 0.05,
+ "DEAD_RECALL": 0.05,
+ "REF_MIN": 0.5,
+ "QA_MAJORITY": 0.75,
+ "LONG_MULT": 3,
+ "DELAY_GAIN": 0.2,
+ "N_TARGETS": 3,
+ "K_GRID": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  12,
+  16
+ ],
+ "F_GRID": [
+  0,
+  1,
+  2,
+  4
+ ],
+ "SEEDS": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "EPS_GRID": [
+  1.0,
+  3.0,
+  10.0,
+  Infinity,
+  -1.0
+ ],
+ "K_GRID_DP": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  8,
+  12,
+  16
+ ],
+ "AGGS_DP": [
+  "fedavg",
+  "cwmed",
+  "trmean",
+  "mkrum"
+ ],
+ "SEEDS_DP": [
+  0,
+  1,
+  2
+ ],
+ "B_TARGETS": "first",
+ "K_GRID_QA": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  8,
+  12,
+  16
+ ],
+ "SEEDS_QA": [
+  0,
+  1,
+  2
+ ],
+ "SEEDS_D": [
+  0,
+  1,
+  2
+ ],
+ "AGGS": [
+  "fedavg",
+  "cwmed",
+  "trmean",
+  "mkrum",
+  "geomed",
+  "bucket_cwmed",
+  "cclip",
+  "nnm_cwmed"
+ ],
+ "K0_AGGS": [
+  "fedavg",
+  "cwmed"
+ ],
+ "CLASSES": [],
+ "T0": 1790489784.6220515,
+ "STOPPED": {
+  "flag": false
+ },
+ "HAVE_OPACUS": true,
+ "TAG": "cicids2017",
+ "OUT_BASENAME": "witness_mit2_cicids2017",
+ "PREV_BASENAME": "witness_v3_cicids2017",
+ "OUT_DIR": "/kaggle/working/witness_mit2_cicids2017",
+ "FIG_DIR": "/kaggle/working/witness_mit2_cicids2017/figures",
+ "CIC_CLASSES": [
+  "Normal",
+  "DoS",
+  "DDoS",
+  "Portscan",
+  "Brute Force",
+  "Botnet",
+  "Web Attack"
+ ],
+ "AGG_FN": {
+  "fedavg": "<function agg_fedavg at 0x7e794d527d80>",
+  "cwmed": "<function agg_cwmed at 0x7e794d527e20>",
+  "trmean": "<function agg_trmean at 0x7e794d527ec0>",
+  "mkrum": "<function agg_mkrum at 0x7e794d527f60>",
+  "geomed": "<function agg_geomed at 0x7e794d5580e0>",
+  "bucket_cwmed": "<function agg_bucket_cwmed at 0x7e794d558040>",
+  "cclip": "<function agg_cclip at 0x7e794d558220>",
+  "nnm_cwmed": "<function agg_nnm_cwmed at 0x7e794d558180>"
+ },
+ "ALL_AGGS": [
+  "fedavg",
+  "cwmed",
+  "trmean",
+  "mkrum",
+  "geomed",
+  "bucket_cwmed",
+  "cclip",
+  "nnm_cwmed"
+ ],
+ "KEY_COLS": [
+  "target",
+  "k",
+  "f",
+  "agg",
+  "eps",
+  "seed",
+  "binary",
+  "rmult"
+ ],
+ "M_TARGETS_N": 2,
+ "SEEDS_M": [
+  0,
+  1,
+  2
+ ],
+ "REF_K": 16,
+ "RUN_M0": true,
+ "K_M0": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  8,
+  10
+ ],
+ "FHAT_M0": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "AGGS_M0": [
+  "trmean",
+  "mkrum",
+  "nnm_cwmed"
+ ],
+ "M0_RMULT": 3,
+ "RUN_M1": true,
+ "K_M1": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  8
+ ],
+ "F_M1": [
+  0,
+  2
+ ],
+ "AGGS_M1": [
+  "cwmed",
+  "trmean",
+  "mkrum"
+ ],
+ "RR_EPS": {
+  "rr1": 1.0,
+  "rr3": 3.0
+ },
+ "INF": Infinity,
+ "ARMS": {
+  "base": [
+   null,
+   null,
+   null
+  ],
+  "orc1": [
+   "oracle",
+   1.0,
+   "waa"
+  ],
+  "orc10": [
+   "oracle",
+   10.0,
+   "waa"
+  ],
+  "orcinf": [
+   "oracle",
+   Infinity,
+   "waa"
+  ],
+  "randinf": [
+   "rand",
+   Infinity,
+   "waa"
+  ],
+  "rr3inf": [
+   "rr3",
+   Infinity,
+   "waa"
+  ],
+  "elect": [
+   "oracle",
+   null,
+   "elect"
+  ],
+  "electrr1": [
+   "rr1",
+   null,
+   "elect"
+  ],
+  "electrr3": [
+   "rr3",
+   null,
+   "elect"
+  ],
+  "loud": [
+   null,
+   null,
+   "loud"
+  ],
+  "verify": [
+   null,
+   null,
+   "verify"
+  ],
+  "probeonly": [
+   null,
+   null,
+   "server"
+  ]
+ },
+ "ARMS_M1": [
+  "base",
+  "orc1",
+  "orc10",
+  "orcinf",
+  "randinf",
+  "rr3inf",
+  "elect",
+  "electrr1",
+  "electrr3",
+  "loud",
+  "verify",
+  "probeonly"
+ ],
+ "CANDIDATE_ARMS": [
+  "orc1",
+  "orc10",
+  "orcinf",
+  "elect",
+  "verify"
+ ],
+ "SIDE_INFO_ARMS": [
+  "verify",
+  "probeonly"
+ ],
+ "LOUD_W": 10.0,
+ "N_PROBE_T": 20,
+ "N_PROBE_B": 200,
+ "K0_ARMS": [
+  "base",
+  "probeonly",
+  "verify"
+ ],
+ "RUN_M2": true,
+ "K_M2": 6,
+ "F_M2": [
+  2,
+  4
+ ],
+ "AGGS_M2": [
+  "cwmed",
+  "trmean",
+  "mkrum"
+ ],
+ "SIGNFLIP_SCALE": 10.0,
+ "ARMS_M2": [
+  "base",
+  "orc1",
+  "orc10",
+  "orcinf",
+  "elect",
+  "verify"
+ ],
+ "TAX_TOL": 1,
+ "TAX_GAIN": 2,
+ "CELL_MAJ": 0.6666666666666666,
+ "RR_TOL": 1,
+ "COLLATERAL_TOL": 0.05,
+ "ATTACK_DROP": 0.2,
+ "KEY_COLS_M": [
+  "exp",
+  "target",
+  "k",
+  "f",
+  "agg",
+  "arm",
+  "fhat",
+  "attack",
+  "seed",
+  "rmult"
+ ],
+ "WAA_DIAG": [],
+ "VERIFY_LOG": [],
+ "LAMBDA_W": 3.0,
+ "LAMBDA_W_DIAG": 10.0,
+ "ALIE_Z": 1.0,
+ "RUN_M3": true,
+ "RUN_M4": true,
+ "RUN_M5": true,
+ "K_M3": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  8
+ ],
+ "F_M3": [
+  0,
+  2,
+  4
+ ],
+ "AGGS_M3": [
+  "cwmed",
+  "trmean",
+  "mkrum"
+ ],
+ "ARMS2": {
+  "base": [
+   null,
+   null,
+   null
+  ],
+  "orcinf": [
+   "oracle",
+   Infinity,
+   "waa"
+  ],
+  "elect": [
+   "oracle",
+   null,
+   "elect"
+  ],
+  "sra": [
+   "oracle",
+   3.0,
+   "sra"
+  ],
+  "sra_l10": [
+   "oracle",
+   10.0,
+   "sra"
+  ],
+  "sra_rr1": [
+   "rr1",
+   3.0,
+   "sra"
+  ],
+  "sra_rr3": [
+   "rr3",
+   3.0,
+   "sra"
+  ],
+  "sra_rand": [
+   "rand",
+   3.0,
+   "sra"
+  ]
+ },
+ "ARMS_M3": [
+  "base",
+  "orcinf",
+  "elect",
+  "sra",
+  "sra_l10",
+  "sra_rr1",
+  "sra_rr3",
+  "sra_rand"
+ ],
+ "M4_CELLS": [
+  [
+   6,
+   2
+  ],
+  [
+   6,
+   4
+  ],
+  [
+   2,
+   4
+  ]
+ ],
+ "ATTACKS_M4": [
+  "signflip",
+  "alie"
+ ],
+ "CLAIM_ARMS_M4": [
+  "sra",
+  "sra_l10",
+  "orcinf",
+  "elect"
+ ],
+ "AGGS_M4": [
+  "cwmed",
+  "trmean",
+  "mkrum"
+ ],
+ "M4_TOL": 0.05,
+ "EPS_M5": 3.0,
+ "K_M5": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  8
+ ],
+ "AGGS_M5": [
+  "cwmed",
+  "trmean",
+  "mkrum"
+ ],
+ "ARMS_M5": [
+  "base",
+  "sra"
+ ],
+ "KEY_COLS_M2": [
+  "exp",
+  "target",
+  "k",
+  "f",
+  "agg",
+  "arm",
+  "attack",
+  "eps",
+  "seed"
+ ],
+ "SRA_DIAG": [],
+ "HEAD_ORDER": {
+  "TIGHT_FIX": 2,
+  "PARTIAL": 1,
+  "NO_SAFE_POINT_CONFIRMED": 0
+ },
+ "SUMMARY": [],
+ "MIT1_BASENAME": "witness_mit1_cicids2017"
+}

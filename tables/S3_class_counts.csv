@@ -1,0 +1,15 @@
+dataset,class,final_train,final_test,source_file
+CICIDS2017,Normal,996670,30000,notebooks/cicids2017/01_v3_2_baseline_resume.ipynb
+CICIDS2017,DoS,120144,5000,notebooks/cicids2017/01_v3_2_baseline_resume.ipynb
+CICIDS2017,DDoS,66601,5000,notebooks/cicids2017/01_v3_2_baseline_resume.ipynb
+CICIDS2017,Portscan,1169,500,notebooks/cicids2017/01_v3_2_baseline_resume.ipynb
+CICIDS2017,Brute Force,4854,2079,notebooks/cicids2017/01_v3_2_baseline_resume.ipynb
+CICIDS2017,Botnet,516,220,notebooks/cicids2017/01_v3_2_baseline_resume.ipynb
+CICIDS2017,Web Attack,73,31,notebooks/cicids2017/01_v3_2_baseline_resume.ipynb
+CSE-CIC-IDS2018,Normal,1000000,30000,notebooks/cse2018/01_v3_2_baseline_continue_full2.ipynb
+CSE-CIC-IDS2018,DoS,300000,5000,notebooks/cse2018/01_v3_2_baseline_continue_full2.ipynb
+CSE-CIC-IDS2018,DDoS,300000,5000,notebooks/cse2018/01_v3_2_baseline_continue_full2.ipynb
+CSE-CIC-IDS2018,Portscan,0,0,notebooks/cse2018/01_v3_2_baseline_continue_full2.ipynb
+CSE-CIC-IDS2018,Brute Force,65938,5000,notebooks/cse2018/01_v3_2_baseline_continue_full2.ipynb
+CSE-CIC-IDS2018,Botnet,100045,5000,notebooks/cse2018/01_v3_2_baseline_continue_full2.ipynb
+CSE-CIC-IDS2018,Web Attack,199,84,notebooks/cse2018/01_v3_2_baseline_continue_full2.ipynb

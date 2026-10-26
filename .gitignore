@@ -1,0 +1,15 @@
+# data caches written by the notebooks
+*.npz
+data_cache.npz
+
+# raw dataset files (never committed; see data/README.md)
+data/*
+!data/README.md
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# output of the analysis scripts
+analysis_output/

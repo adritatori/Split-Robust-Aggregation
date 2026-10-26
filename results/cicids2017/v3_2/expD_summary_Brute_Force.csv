@@ -1,0 +1,8 @@
+agg,k*(R),k*(2R),k*(3R),WALL at k
+bucket_cwmed,5,4,4,"[1, 2]"
+cclip,4,3,2,[1]
+cwmed,9,6,5,"[1, 2, 3]"
+geomed,4,3,3,[1]
+mkrum,4,3,3,"[1, 2]"
+nnm_cwmed,4,3,3,"[1, 2]"
+trmean,3,3,3,"[1, 2]"

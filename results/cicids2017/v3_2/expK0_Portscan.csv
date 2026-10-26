@@ -1,0 +1,5 @@
+agg,model,k=0 detection,reference,verdict,-> Normal
+cwmed,multiclass(any-attack),0.06,0.961,NEEDS_WITNESSES,0.94
+cwmed,binary,0.06,0.982,NEEDS_WITNESSES,0.94
+fedavg,multiclass(any-attack),0.06,0.961,NEEDS_WITNESSES,0.94
+fedavg,binary,0.06,0.982,NEEDS_WITNESSES,0.94

@@ -1,0 +1,161 @@
+dataset,target,rule,f,kstar_0.5,kstar_0.6,kstar_0.7,kstar_0.8,kstar_0.9
+CICIDS2017,Botnet,fedavg,0,1,1,1,2,2
+CICIDS2017,Botnet,fedavg,1,2,2,2,3,4
+CICIDS2017,Botnet,fedavg,2,3,3,3,4,5
+CICIDS2017,Botnet,fedavg,4,5,6,6,6,7
+CICIDS2017,Botnet,cwmed,0,7,7,7,7,9
+CICIDS2017,Botnet,cwmed,1,7,7,7,8,9
+CICIDS2017,Botnet,cwmed,2,8,8,8,8,9
+CICIDS2017,Botnet,cwmed,4,8,8,9,9,10
+CICIDS2017,Botnet,trmean,0,3,3,3,3,4
+CICIDS2017,Botnet,trmean,1,3,3,3,4,4
+CICIDS2017,Botnet,trmean,2,4,4,4,4,5
+CICIDS2017,Botnet,trmean,4,6,6,6,6,7
+CICIDS2017,Botnet,mkrum,0,4,4,4,4,4
+CICIDS2017,Botnet,mkrum,1,4,4,4,4,4
+CICIDS2017,Botnet,mkrum,2,4,5,5,5,5
+CICIDS2017,Botnet,mkrum,4,5,6,6,6,6
+CICIDS2017,Botnet,geomed,0,4,4,5,5,5
+CICIDS2017,Botnet,geomed,1,5,5,5,5,6
+CICIDS2017,Botnet,geomed,2,5,5,6,6,6
+CICIDS2017,Botnet,geomed,4,6,7,7,7,8
+CICIDS2017,Botnet,bucket_cwmed,0,5,5,5,5,5
+CICIDS2017,Botnet,bucket_cwmed,1,5,5,5,5,5
+CICIDS2017,Botnet,bucket_cwmed,2,5,5,5,5,5
+CICIDS2017,Botnet,bucket_cwmed,4,6,6,6,6,7
+CICIDS2017,Botnet,cclip,0,4,4,4,4,5
+CICIDS2017,Botnet,cclip,1,4,4,4,5,5
+CICIDS2017,Botnet,cclip,2,5,5,5,5,5
+CICIDS2017,Botnet,cclip,4,6,6,6,6,7
+CICIDS2017,Botnet,nnm_cwmed,0,3,4,4,4,4
+CICIDS2017,Botnet,nnm_cwmed,1,4,4,4,4,5
+CICIDS2017,Botnet,nnm_cwmed,2,5,5,5,5,5
+CICIDS2017,Botnet,nnm_cwmed,4,6,6,6,6,8
+CICIDS2017,Portscan,fedavg,0,1,1,1,1,1
+CICIDS2017,Portscan,fedavg,1,2,3,3,3,4
+CICIDS2017,Portscan,fedavg,2,4,5,5,5,7
+CICIDS2017,Portscan,fedavg,4,6,7,8,8,12
+CICIDS2017,Portscan,cwmed,0,6,6,7,7,7
+CICIDS2017,Portscan,cwmed,1,7,7,7,7,8
+CICIDS2017,Portscan,cwmed,2,7,7,7,8,8
+CICIDS2017,Portscan,cwmed,4,8,8,8,8,9
+CICIDS2017,Portscan,trmean,0,3,3,3,4,4
+CICIDS2017,Portscan,trmean,1,3,3,4,4,4
+CICIDS2017,Portscan,trmean,2,4,4,5,5,5
+CICIDS2017,Portscan,trmean,4,6,6,7,7,8
+CICIDS2017,Portscan,mkrum,0,4,4,4,4,5
+CICIDS2017,Portscan,mkrum,1,4,4,4,4,4
+CICIDS2017,Portscan,mkrum,2,4,4,4,5,5
+CICIDS2017,Portscan,mkrum,4,6,6,6,6,7
+CICIDS2017,Portscan,geomed,0,4,4,5,5,5
+CICIDS2017,Portscan,geomed,1,4,5,5,5,5
+CICIDS2017,Portscan,geomed,2,5,5,6,6,7
+CICIDS2017,Portscan,geomed,4,7,7,7,7,8
+CICIDS2017,Portscan,bucket_cwmed,0,4,5,5,5,5
+CICIDS2017,Portscan,bucket_cwmed,1,5,5,5,5,5
+CICIDS2017,Portscan,bucket_cwmed,2,5,5,5,5,6
+CICIDS2017,Portscan,bucket_cwmed,4,7,7,7,8,8
+CICIDS2017,Portscan,cclip,0,4,4,4,4,5
+CICIDS2017,Portscan,cclip,1,4,4,4,4,5
+CICIDS2017,Portscan,cclip,2,5,5,5,5,6
+CICIDS2017,Portscan,cclip,4,6,6,7,7,7
+CICIDS2017,Portscan,nnm_cwmed,0,4,4,4,4,5
+CICIDS2017,Portscan,nnm_cwmed,1,4,4,4,4,4
+CICIDS2017,Portscan,nnm_cwmed,2,4,4,4,5,5
+CICIDS2017,Portscan,nnm_cwmed,4,6,6,6,6,7
+CICIDS2017,Brute Force,fedavg,0,1,1,1,1,1
+CICIDS2017,Brute Force,fedavg,1,2,2,2,3,3
+CICIDS2017,Brute Force,fedavg,2,3,3,4,4,5
+CICIDS2017,Brute Force,fedavg,4,6,6,6,6,7
+CICIDS2017,Brute Force,cwmed,0,7,8,8,9,9
+CICIDS2017,Brute Force,cwmed,1,7,8,8,8,9
+CICIDS2017,Brute Force,cwmed,2,7,8,8,8,8
+CICIDS2017,Brute Force,cwmed,4,8,8,8,9,9
+CICIDS2017,Brute Force,trmean,0,3,3,3,3,3
+CICIDS2017,Brute Force,trmean,1,3,3,4,4,4
+CICIDS2017,Brute Force,trmean,2,4,4,4,4,4
+CICIDS2017,Brute Force,trmean,4,5,6,6,6,6
+CICIDS2017,Brute Force,mkrum,0,3,3,3,4,4
+CICIDS2017,Brute Force,mkrum,1,4,4,4,4,4
+CICIDS2017,Brute Force,mkrum,2,4,4,4,4,4
+CICIDS2017,Brute Force,mkrum,4,5,5,6,6,6
+CICIDS2017,Brute Force,geomed,0,4,4,4,4,4
+CICIDS2017,Brute Force,geomed,1,4,4,5,5,5
+CICIDS2017,Brute Force,geomed,2,5,5,5,5,5
+CICIDS2017,Brute Force,geomed,4,6,6,6,6,6
+CICIDS2017,Brute Force,bucket_cwmed,0,5,5,5,5,5
+CICIDS2017,Brute Force,bucket_cwmed,1,5,5,5,5,5
+CICIDS2017,Brute Force,bucket_cwmed,2,5,5,5,5,5
+CICIDS2017,Brute Force,bucket_cwmed,4,6,6,6,6,6
+CICIDS2017,Brute Force,cclip,0,3,4,4,4,4
+CICIDS2017,Brute Force,cclip,1,4,4,4,4,4
+CICIDS2017,Brute Force,cclip,2,4,4,5,5,5
+CICIDS2017,Brute Force,cclip,4,6,6,6,6,6
+CICIDS2017,Brute Force,nnm_cwmed,0,3,3,3,4,4
+CICIDS2017,Brute Force,nnm_cwmed,1,4,4,4,4,4
+CICIDS2017,Brute Force,nnm_cwmed,2,4,4,4,4,4
+CICIDS2017,Brute Force,nnm_cwmed,4,6,6,6,6,6
+CSE-CIC-IDS2018,Brute Force,fedavg,0,1,1,1,1,2
+CSE-CIC-IDS2018,Brute Force,fedavg,1,2,2,2,2,2
+CSE-CIC-IDS2018,Brute Force,fedavg,2,3,3,3,3,3
+CSE-CIC-IDS2018,Brute Force,fedavg,4,5,5,6,6,6
+CSE-CIC-IDS2018,Brute Force,cwmed,0,10,10,10,10,10
+CSE-CIC-IDS2018,Brute Force,cwmed,1,9,9,10,10,10
+CSE-CIC-IDS2018,Brute Force,cwmed,2,9,9,9,10,10
+CSE-CIC-IDS2018,Brute Force,cwmed,4,9,9,9,10,10
+CSE-CIC-IDS2018,Brute Force,trmean,0,3,3,3,3,3
+CSE-CIC-IDS2018,Brute Force,trmean,1,3,3,3,3,4
+CSE-CIC-IDS2018,Brute Force,trmean,2,3,3,4,4,4
+CSE-CIC-IDS2018,Brute Force,trmean,4,5,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,mkrum,0,4,4,4,4,4
+CSE-CIC-IDS2018,Brute Force,mkrum,1,4,4,4,4,4
+CSE-CIC-IDS2018,Brute Force,mkrum,2,4,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,mkrum,4,5,6,6,6,6
+CSE-CIC-IDS2018,Brute Force,geomed,0,5,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,geomed,1,5,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,geomed,2,5,5,5,5,6
+CSE-CIC-IDS2018,Brute Force,geomed,4,7,7,7,7,7
+CSE-CIC-IDS2018,Brute Force,bucket_cwmed,0,5,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,bucket_cwmed,1,5,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,bucket_cwmed,2,5,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,bucket_cwmed,4,5,6,6,6,6
+CSE-CIC-IDS2018,Brute Force,cclip,0,4,4,4,4,5
+CSE-CIC-IDS2018,Brute Force,cclip,1,4,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,cclip,2,5,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,cclip,4,6,6,6,6,6
+CSE-CIC-IDS2018,Brute Force,nnm_cwmed,0,4,4,4,4,4
+CSE-CIC-IDS2018,Brute Force,nnm_cwmed,1,4,4,4,4,5
+CSE-CIC-IDS2018,Brute Force,nnm_cwmed,2,5,5,5,5,5
+CSE-CIC-IDS2018,Brute Force,nnm_cwmed,4,6,6,7,7,7
+CSE-CIC-IDS2018,Botnet,fedavg,0,1,1,1,1,2
+CSE-CIC-IDS2018,Botnet,fedavg,1,2,2,2,3,3
+CSE-CIC-IDS2018,Botnet,fedavg,2,3,3,4,4,4
+CSE-CIC-IDS2018,Botnet,fedavg,4,5,6,6,6,6
+CSE-CIC-IDS2018,Botnet,cwmed,0,9,9,9,9,9
+CSE-CIC-IDS2018,Botnet,cwmed,1,9,9,9,9,9
+CSE-CIC-IDS2018,Botnet,cwmed,2,9,9,9,9,9
+CSE-CIC-IDS2018,Botnet,cwmed,4,9,10,10,10,10
+CSE-CIC-IDS2018,Botnet,trmean,0,3,3,3,4,4
+CSE-CIC-IDS2018,Botnet,trmean,1,3,4,4,4,4
+CSE-CIC-IDS2018,Botnet,trmean,2,4,4,4,4,4
+CSE-CIC-IDS2018,Botnet,trmean,4,6,6,6,6,6
+CSE-CIC-IDS2018,Botnet,mkrum,0,4,4,4,4,4
+CSE-CIC-IDS2018,Botnet,mkrum,1,4,4,4,4,5
+CSE-CIC-IDS2018,Botnet,mkrum,2,5,5,5,5,5
+CSE-CIC-IDS2018,Botnet,mkrum,4,6,6,6,6,7
+CSE-CIC-IDS2018,Botnet,geomed,0,6,6,6,6,6
+CSE-CIC-IDS2018,Botnet,geomed,1,6,6,6,6,7
+CSE-CIC-IDS2018,Botnet,geomed,2,6,6,7,7,7
+CSE-CIC-IDS2018,Botnet,geomed,4,8,8,8,8,8
+CSE-CIC-IDS2018,Botnet,bucket_cwmed,0,5,5,5,5,5
+CSE-CIC-IDS2018,Botnet,bucket_cwmed,1,5,5,5,5,5
+CSE-CIC-IDS2018,Botnet,bucket_cwmed,2,5,5,5,5,6
+CSE-CIC-IDS2018,Botnet,bucket_cwmed,4,6,6,6,6,6
+CSE-CIC-IDS2018,Botnet,cclip,0,5,5,5,5,5
+CSE-CIC-IDS2018,Botnet,cclip,1,5,5,6,6,6
+CSE-CIC-IDS2018,Botnet,cclip,2,6,6,6,6,6
+CSE-CIC-IDS2018,Botnet,cclip,4,6,6,6,6,6
+CSE-CIC-IDS2018,Botnet,nnm_cwmed,0,4,4,4,4,4
+CSE-CIC-IDS2018,Botnet,nnm_cwmed,1,5,5,5,5,5
+CSE-CIC-IDS2018,Botnet,nnm_cwmed,2,5,5,5,6,6
+CSE-CIC-IDS2018,Botnet,nnm_cwmed,4,7,7,7,7,7
