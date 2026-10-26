@@ -214,11 +214,6 @@ Each notebook is one self-contained code cell. It needs a GPU, internet access o
 
 Non-finite values are replaced by the training median, then signed `log1p`, then z-score with training mean and standard deviation (clipped to [-10, 10]).
 
-## Known gaps
-
-- Package versions are not pinned in `requirements.txt` (no log records them).
-- Fig. 4 and the panels of Fig. 9 have no script figure (see "Paper figures → analysis scripts").
-
 ## License
 
 MIT. See `LICENSE`.
